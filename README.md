@@ -1,2 +1,2 @@
 # Universe
-Begin
+To begin, begin
