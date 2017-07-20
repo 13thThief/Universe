@@ -28,8 +28,10 @@ margin-left: -250px;
 	</head>
 <body>
 <script>
-  $(document).click(function() {
-    $("#photo").fadeIn(); 
+  $(document).ready(function() {
+    $("#photo").click(function(){
+	    this.fadeOut();
+    }
   });
 </script>
 
