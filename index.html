@@ -21,16 +21,16 @@
 				height: 200px;
 				top: 50%;
 				left: 50%;
-				margin-top: -180px;
+				margin-top: -250px;
 				margin-left: -250px;
 			}
 		</style>
 	</head>
 <body>
-<!-- <div class="center" id="photo"><img src="http://askcaseyneistat.com/assets/caseyneistatsignature.png" alt="jumbo bling wrapper"></div>
--->
+	<button id="btn">Hmm</button>
+
 	<div class = "center">
-		Do <div id="to-hide">what you can't<br><br>
+		<div id="to-hide">Do what you can't<br><br>
 		Work Harder<br><br>
 		Take Risks<br><br>
 		Free Time Is The Enemy Of Progress<br><br>
@@ -38,12 +38,12 @@
 		If You're Doing What Everyone Else Is Doing, Then You're Doing It Wrong<br><br>
 		Without A Goal, You Can't Score<br><br>
 		It's The Execution That Matters, Not The Idea<br><br>
-		Do</div> More<br><br>
+		Do More<br><br></div> 
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script>
 		$(function(){
-			$("#to-hide").on('click', function(){
+			$("body").on('click', function(){
 				$("#to-hide").slideToggle(500);
 			})
 		});
