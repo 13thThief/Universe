@@ -31,7 +31,9 @@
 	<button id="btn">Hmm</button>
 
 	<div class = "center">
-		<div id="to-hide">Do what you can't<br><br>
+		<div id="test">Dedicated to Ayush, Anuj, Rohit</div>
+		<div id="to-hide">
+		Do what you can't<br><br>
 		Work Harder<br><br>
 		Take Risks<br><br>
 		Free Time Is The Enemy Of Progress<br><br>
@@ -44,8 +46,10 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script>
 		$(function(){
+			$('#test').hide()
 			$("body").on('click', function(){
 				$("#to-hide").slideToggle(500);
+				$("#test").toggle(600)
 			})
 		});
 	</script>
